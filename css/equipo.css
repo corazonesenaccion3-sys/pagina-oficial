@@ -45,6 +45,11 @@
   #eqHomeGrid .eq-card__body { display:flex; flex:0; padding:11px 12px 13px; }
   #eqHomeGrid .eq-card--voluntario .eq-card__name { margin:0; text-align:center; }
   #eqHomeGrid .eq-card--voluntario .eq-card__profile-trigger { display:none; }
+  #gridVoluntarios .eq-card--voluntario { position:relative; display:flex; min-height:0; }
+  #gridVoluntarios .eq-card--voluntario .eq-card__photo { width:100%; height:auto; aspect-ratio:1; }
+  #gridVoluntarios .eq-card__body { flex:0; padding:11px 12px 13px; }
+  #gridVoluntarios .eq-card--voluntario .eq-card__name { margin:0; text-align:center; }
+  #gridVoluntarios .eq-card--voluntario .eq-card__profile-trigger { position:absolute; z-index:1; inset:0; display:block; width:100%; height:100%; padding:0; opacity:0; }
   .vol-viewall-wrapper { margin-top:28px; }
 }
 
