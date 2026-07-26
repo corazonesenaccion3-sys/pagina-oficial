@@ -1,4 +1,4 @@
-const WHATSAPP_URL = 'https://wa.me/529662432453';
+const WHATSAPP_URL = 'https://chat.whatsapp.com/BCzdX1X1xHiEkuOHFUSuHE?s=cl&p=a&ilr=4';
 
 /** Botón flotante; se oculta de forma semántica al entrar en Contacto. */
 export function initWhatsApp() {
