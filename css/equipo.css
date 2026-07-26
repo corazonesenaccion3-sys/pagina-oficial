@@ -39,9 +39,12 @@
   .eq-card--voluntario .eq-card__quote,
   .eq-card--voluntario .eq-card__social { display:none; }
   .eq-card--voluntario .eq-card__profile-trigger { display:inline-flex; gap:8px; align-items:center; width:max-content; padding:0; border:0; background:transparent; color:var(--color-primary); font-size:.85rem; font-weight:700; cursor:pointer; }
-  #eqHomeGrid { gap:16px; }
-  #eqHomeGrid { grid-template-columns:repeat(2, minmax(0, 1fr)); }
-  #eqHomeGrid .eq-card__body { display:none; }
+  #eqHomeGrid { gap:16px; grid-template-columns:repeat(2, minmax(0, 1fr)); }
+  #eqHomeGrid .eq-card--voluntario { display:flex; min-height:0; }
+  #eqHomeGrid .eq-card--voluntario .eq-card__photo { width:100%; height:auto; aspect-ratio:1; }
+  #eqHomeGrid .eq-card__body { display:flex; flex:0; padding:11px 12px 13px; }
+  #eqHomeGrid .eq-card--voluntario .eq-card__name { margin:0; text-align:center; }
+  #eqHomeGrid .eq-card--voluntario .eq-card__profile-trigger { display:none; }
   .vol-viewall-wrapper { margin-top:28px; }
 }
 
