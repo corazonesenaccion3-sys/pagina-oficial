@@ -10,11 +10,11 @@
   "eventos": [
     {
       "id": 1,
-      "titulo": "Campaña de Recogida de Ropa",
+      "titulo": "Vive corazónes fest",
       "fecha": "22 AGO 2026",
-      "hora": "5:30 PM - 10:00 PM",
-      "lugar": "Sede Principal",
-      "descripcion": "Trae tu ropa en buen estado y ayúdanos a vestir a quienes más lo necesitan. Punto de recogida en la sede principal.",
+      "hora": "6:30 PM - 09:30 PM",
+      "lugar": "Parque Mariano Matamoros, colonia Evolución",
+      "descripcion": "Encuentro Juvenil y familiar: jornada de juventudes y familias con reconocimiento a jóvenes deportistas, charlas contra las adicciones, vendimias, presentaciones de baile y canto, actividades para niños y dinámicas",
       "ubicacion": { "direccion": "Av. Las Cruces calle Libertad #56", "colonia": "Evolución", "ciudad": "Tonalá", "estado": "Chiapas", "pais": "México" }
     }
   ],
