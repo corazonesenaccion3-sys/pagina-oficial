@@ -36,17 +36,27 @@
     { "id": 7, "nombre": "David Emiliano Arias De Aquino", "foto": "assets/images/voluntario7.jpeg", "presentacion": "Me encanta saber que con pequeñas acciones puedo ayudar al mundo.", "frase": "El único límite para tus logros futuros es la creencia que tienes en ti mismo. — Brian Tracy", "redSocial": { "nombre": "Instagram", "url": "https://instagram.com/" } }
   ],
   "comunidad": [
-    { "id": 101, "evento": "Campaña de Ropa", "fecha": "25 de mayo de 2026", "foto": "assets/images/reforestacion6.jpeg", "descripcion": "Recolección de playeras y pantalones para familias de esta zona." },
-    { "id": 102, "evento": "Campaña de Ropa", "fecha": "20 de junio de 2026", "foto": "assets/images/reforestacion2.jpeg", "descripcion": "Recolección de playeras y pantalones para familias de esta zona." },
+    { "id": 101, "evento": "Campaña de Ropa", 
+    "fecha": "25 de mayo de 2026", 
+    "foto": "assets/images/reforestacion6.jpeg",
+    "descripcion": "Recolección de playeras y pantalones para familias de esta zona." },
+    { "id": 102, "evento": "Campaña de Ropa", 
+    "fecha": "20 de junio de 2026", 
+    "foto": "assets/images/reforestacion2.jpeg", 
+    "descripcion": "Recolección de playeras y pantalones para familias de esta zona." },
     { "id": 103, "evento": "Reforestación Barrio Pescadores", "fecha": "15 de julio de 2026", "foto": "assets/images/reforestacion3.jpeg", "descripcion": "Plantamos árboles en el Barrio Pescadores para mejorar el aire y embellecer la zona." }
   ],
-  "donadores": [
-    { "id": 201, "nombre": "Panadería El Trigo", "foto": "assets/images/donador1.jpg", "tipo": "Empresa", "mensaje": "Gracias por apoyar nuestra campaña navideña." },
-    { "id": 202, "nombre": "María López", "foto": "assets/images/donador2.jpg", "tipo": "Persona", "mensaje": "Es un honor ser parte de esta causa tan bonita." }
+  "donadores": [ 
   ],
   "contacto": {
-    "direccion": "Av. Las Cruces calle Libertad #56", "colonia": "Evolución", "ciudad": "Mapastepec", "estado": "Chiapas", "pais": "México",
-    "telefono": ["+52 966 243 2453", "+52 966 113 4170"], "correo": "corazonesenaccion3@gmail.com", "horario": ["Lun - Vie: 9:00 AM - 6:00 PM", "Sáb: 9:00 AM - 1:00 PM"]
+    "direccion": "Av. Las Cruces calle Libertad #56", 
+    "colonia": "Evolución", 
+    "ciudad": "Tonala",
+    "estado": "Chiapas", 
+    "pais": "México",
+    "telefono": ["+52 966 243 2453", "+52 966 113 4170"], 
+    "correo": "corazonesenaccion3@gmail.com", 
+    "horario": ["Lun - Vie: 9:00 AM - 6:00 PM", "Sáb: 9:00 AM - 1:00 PM"]
   },
   "footer": { "descripcion": "Transformando vidas, construyendo esperanza." }
 }

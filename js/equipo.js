@@ -1,11 +1,13 @@
 import { loadContent } from './dataLoader.js';
 import { renderTeamCards } from './team.js';
+import { initModal } from './modal.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
   const grids = { voluntario: document.getElementById('gridVoluntarios'), comunidad: document.getElementById('gridComunidad'), donador: document.getElementById('gridDonadores') };
   try {
     const content = await loadContent();
     const groups = { voluntario: content.voluntarios, comunidad: content.comunidad, donador: content.donadores };
+    initModal(groups.voluntario || []);
     Object.entries(grids).forEach(([type, grid]) => {
       if (!grid) return;
       const items = groups[type] || [];
