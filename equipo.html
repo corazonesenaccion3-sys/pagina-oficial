@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro Equipo - Corazones en Acción</title>
+    <link rel="icon" href="assets/images/logo.jpeg" type="image/jpeg">
+    <meta name="description" content="Conoce a los voluntarios, comunidad y aliados de Corazones en Acción.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/equipo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="header__logo">
+                <img src="assets/images/logo.jpeg" alt="Corazones en Acción" class="header__logo-img" onerror="this.style.display='none'">
+                <span class="header__logo-text">Corazones en Acción</span>
+            </a>
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Inicio</a></li>
+                    <li><a href="index.html#nosotros" class="nav__link">Nosotros</a></li>
+                    <li><a href="index.html#causas" class="nav__link">Causas</a></li>
+                    <li><a href="index.html#eventos" class="nav__link">Eventos</a></li>
+                    <li><a href="index.html#galeria" class="nav__link">Galería</a></li>
+                    <li><a href="equipo.html" class="nav__link">Equipo</a></li>
+                    <li><a href="index.html#colabora" class="nav__link">Colabora</a></li>
+                    <li><a href="index.html#contacto" class="nav__link">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="header__menu-btn" id="menuBtn" aria-label="Menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero hero--short">
+        <div class="hero__overlay"></div>
+        <div class="container hero__content">
+            <img src="assets/images/logo.jpeg" alt="Corazones en Acción" class="hero__logo" onerror="this.style.display='none'">
+            <h1 class="hero__title">Nuestro Equipo</h1>
+            <p class="hero__subtitle">Conoce a las personas, comunidades y aliados que hacen posible cada una de nuestras actividades.</p>
+            <a href="index.html" class="btn btn--secondary">
+                <i class="fas fa-arrow-left" style="margin-right:8px;"></i>Volver al inicio
+            </a>
+        </div>
+    </section>
+
+    <!-- VOLUNTARIOS -->
+    <section class="section" id="secVoluntarios">
+        <div class="container">
+            <h2 class="section__title">Voluntarios Activos</h2>
+            <p class="section__subtitle">Conoce a quienes dedican su tiempo para ayudar a nuestra comunidad.</p>
+            <div class="eq-grid" id="gridVoluntarios"></div>
+        </div>
+    </section>
+
+    <!-- COMUNIDAD -->
+    <section class="section section--alt" id="secComunidad">
+        <div class="container">
+            <h2 class="section__title">Nuestra Comunidad</h2>
+            <p class="section__subtitle">Momentos compartidos con todas las personas que han formado parte de nuestras actividades.</p>
+            <div class="eq-grid" id="gridComunidad"></div>
+        </div>
+    </section>
+
+    <!-- DONADORES -->
+    <section class="section" id="secDonadores">
+        <div class="container">
+            <h2 class="section__title">Nuestros Donadores</h2>
+            <p class="section__subtitle">Agradecemos a todas las personas, empresas y organizaciones que hacen posible este proyecto.</p>
+            <div class="eq-grid" id="gridDonadores"></div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <img src="assets/images/logo.jpeg" alt="" onerror="this.style.display='none'">
+                    <h3>Corazones en Acción</h3>
+                    <p>Transformando vidas, construyendo esperanza.</p>
+                </div>
+                <div class="footer__links">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="index.html#inicio">Inicio</a></li>
+                        <li><a href="index.html#nosotros">Nosotros</a></li>
+                        <li><a href="index.html#causas">Causas</a></li>
+                        <li><a href="index.html#eventos">Eventos</a></li>
+                        <li><a href="index.html#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer__newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Recibe información sobre nuestras campañas</p>
+                    <form class="footer__form">
+                        <input type="email" placeholder="Tu email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Corazones en Acción. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/equipo.js"></script>
+</body>
+</html>

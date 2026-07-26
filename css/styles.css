@@ -1,0 +1,17 @@
+/* Base global: el resto del estilo vive en archivos especializados. */
+@import url('./variables.css');
+@import url('./animations.css');
+@import url('./components.css');
+@import url('./responsive.css');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; scroll-padding-top: var(--header-height); }
+body { background: var(--color-bg); color: var(--color-text); font-family: var(--font-family); line-height: 1.6; }
+img { max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
+button, input { font: inherit; }
+:focus-visible { outline: 3px solid var(--color-primary-light); outline-offset: 3px; }
+.container { width: min(1120px, calc(100% - 40px)); margin-inline: auto; }
+.no-scroll { overflow: hidden; }
+[hidden] { display: none !important; }

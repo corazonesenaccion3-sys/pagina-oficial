@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corazones en Acción</title>
+    <link rel="icon" href="assets/images/logo.jpeg" type="image/jpeg">
+    <meta name="description" content="Corazones en Acción: jóvenes que impulsan campañas solidarias y transforman vidas en su comunidad.">
+    <meta property="og:title" content="Corazones en Acción">
+    <meta property="og:description" content="Transformando vidas a través de la solidaridad.">
+    <meta property="og:image" content="assets/images/logo.jpeg">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/equipo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER / NAV -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#" class="header__logo">
+                <img src="assets/images/logo.jpeg" alt="Corazones en Acción" class="header__logo-img" onerror="this.style.display='none'">
+                <span class="header__logo-text">Corazones en Acción</span>
+            </a>
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li><a href="#inicio" class="nav__link">Inicio</a></li>
+                    <li><a href="#nosotros" class="nav__link">Nosotros</a></li>
+                    <li><a href="#causas" class="nav__link">Causas</a></li>
+                    <li><a href="#eventos" class="nav__link">Eventos</a></li>
+                    <li><a href="#galeria" class="nav__link">Galería</a></li>
+                    <li><a href="equipo.html" class="nav__link">Equipo</a></li>
+                    <li><a href="#colabora" class="nav__link">Colabora</a></li>
+                    <li><a href="#contacto" class="nav__link">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="header__menu-btn" id="menuBtn" aria-label="Menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="hero__overlay"></div>
+        <div class="container hero__content">
+            <img src="assets/images/logo.jpeg" alt="Corazones en Acción" class="hero__logo" onerror="this.style.display='none'">
+            <h1 class="hero__title">Corazones en Acción</h1>
+            <p class="hero__subtitle">Transformando vidas a través de la solidaridad. Únete a nuestra misión de llevar esperanza a quienes más lo necesitan.</p>
+            <div class="hero__buttons">
+                <a href="#colabora" class="btn btn--primary">Quiero Colaborar</a>
+                <a href="#eventos" class="btn btn--secondary">Próximos Eventos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="section" id="nosotros">
+        <div class="container">
+            <h2 class="section__title">Sobre Nosotros</h2>
+            <p class="section__subtitle">Conoce nuestra historia y misión</p>
+            <div class="about">
+                <div class="about__content">
+                    <h3>¿Quiénes somos?</h3>
+                    <p>Somos un grupo de jóvenes comprometidos con nuestra comunidad. Nacimos de la idea de que pequeñas acciones pueden generar grandes cambios. Desde entonces, organizamos campañas de recogida de ropa, juguetes y alimentos para apoyar a familias en situación de vulnerabilidad.</p>
+                    <h3>Nuestra Misión</h3>
+                    <p>Brindar apoyo a quienes más lo necesitan a través de la recolección y distribución de recursos básicos, creando una red de solidaridad juvenil que inspire a las nuevas generaciones.</p>
+                    <div class="about__stats">
+                        <div class="stat">
+                            <span class="stat__number" data-count="20">0</span>
+                            <span class="stat__label">Familias ayudadas</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number" data-count="3">0</span>
+                            <span class="stat__label">Campañas realizadas</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number" data-count="15">0</span>
+                            <span class="stat__label">Voluntarios activos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__image">
+                    <img src="https://placehold.co/600x400/cc2222/ffffff?text=Corazones+en+Acci%C3%B3n" alt="Corazones en Acción" style="width:100%;border-radius:20px;box-shadow:0 20px 60px rgba(0,0,0,0.1)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CAUSAS -->
+    <section class="section section--alt" id="causas">
+        <div class="container">
+            <h2 class="section__title">Nuestras Causas</h2>
+            <p class="section__subtitle">Áreas en las que trabajamos</p>
+            <div class="cards">
+                <div class="card">
+                    <div class="card__icon"><i class="fas fa-tshirt"></i></div>
+                    <h3 class="card__title">Ropa</h3>
+                    <p class="card__text">Recolectamos ropa en buen estado para personas y familias que no tienen acceso a vestimenta adecuada, especialmente en temporada de frío.</p>
+                </div>
+                <div class="card">
+                    <div class="card__icon"><i class="fas fa-gift"></i></div>
+                    <h3 class="card__title">Juguetes</h3>
+                    <p class="card__text">Organizamos campañas de recogida de juguetes nuevos y usados para llevar alegría a niños y niñas en fechas especiales.</p>
+                </div>
+                <div class="card">
+                    <div class="card__icon"><i class="fas fa-apple-alt"></i></div>
+                    <h3 class="card__title">Alimentos</h3>
+                    <p class="card__text">Recolectamos alimentos no perecederos para colaborar con comedores comunitarios y familias en situación de emergencia.</p>
+                </div>
+                <div class="card">
+                    <div class="card__icon"><i class="fas fa-hand-holding-heart"></i></div>
+                    <h3 class="card__title">Voluntariado</h3>
+                    <p class="card__text">Formamos equipos de jóvenes voluntarios para participar activamente en cada campaña y llevar ayuda directa a la comunidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EVENTOS -->
+    <section class="section" id="eventos">
+        <div class="container">
+            <h2 class="section__title">Próximos Eventos</h2>
+            <p class="section__subtitle">No te pierdas nuestras actividades</p>
+            <div class="events" id="eventsContainer">
+                <!-- Los eventos se cargan dinámicamente desde JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="section section--alt" id="galeria">
+        <div class="container">
+            <h2 class="section__title">Galería</h2>
+            <p class="section__subtitle">Momentos de nuestras campañas</p>
+            <div class="gallery" id="galleryContainer">
+                <!-- Las imágenes se cargan desde JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- NUESTRO EQUIPO -->
+    <section class="section section--alt" id="equipo">
+        <div class="container">
+            <h2 class="section__title">Nuestro Equipo</h2>
+            <p class="section__subtitle">Conoce a las personas, comunidades y aliados que hacen posible cada una de nuestras actividades. Gracias a su tiempo, esfuerzo y compromiso seguimos generando un impacto positivo en nuestra comunidad.</p>
+            <div class="eq-grid" id="eqHomeGrid"></div>
+            <div class="vol-viewall-wrapper">
+                <a href="equipo.html" class="btn btn--primary">Conocer a nuestro equipo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- COLABORA -->
+    <section class="section section--donate" id="colabora">
+        <div class="container">
+            <h2 class="section__title section__title--light">Colabora con Nosotros</h2>
+            <p class="section__subtitle section__subtitle--light">Hay muchas formas de ayudar</p>
+            <div class="donate-options">
+                <div class="donate-card">
+                    <i class="fas fa-box-open donate-card__icon"></i>
+                    <h3>Dona Ropa o Juguetes</h3>
+                    <p>Acércate a nuestros puntos de recogida o contáctanos para coordinar la entrega.</p>
+                </div>
+                <div class="donate-card">
+                    <i class="fas fa-hand-holding-usd donate-card__icon"></i>
+                    <h3>Dona Económicamente</h3>
+                    <p>Tu aporte económico nos ayuda a cubrir costos de logística y transporte.</p>
+                </div>
+                <div class="donate-card">
+                    <i class="fas fa-users donate-card__icon"></i>
+                    <h3>Hazte Voluntario</h3>
+                    <p>Únete a nuestro equipo y participa activamente en las campañas y eventos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section" id="contacto">
+        <div class="container">
+            <h2 class="section__title">Contacto</h2>
+            <p class="section__subtitle">Estamos para ayudarte</p>
+            <div class="contact">
+                <div class="contact__info" id="contactDetails" aria-live="polite">
+                    <div class="contact__item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Dirección</h4>
+                            <p>Av. Las cruces calle libertad #56 colonia. Evolución</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>+52 966 243 2453 </p>
+                            <p>+52 966 113 4170</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <i class="fas fa-envelope"></i>
+                        <div>    
+                            <h4>Email</h4>
+                            <p>corazonesenaccion3@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horario</h4>
+                            <p>Lun - Vie: 9:00 AM - 6:00 PM</p>
+                            <p>Sáb: 9:00 AM - 1:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="contact__social">
+                        <p class="contact__social-label">Síguenos en redes sociales:</p>
+                        <div class="contact__social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=61589455432171" target="_blank" rel="noopener noreferrer" class="contact__social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/corazones.en_accion/" target="_blank" rel="noopener noreferrer" class="contact__social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/529662432453" target="_blank" rel="noopener noreferrer" class="contact__social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__illustration">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>¡Queremos escucharte!</h3>
+                    <p>Si tienes dudas, sugerencias o quieres colaborar con nosotros, no dudes en contactarnos a través de cualquiera de nuestros canales.</p>
+                    <div class="contact__buttons">
+                        <a href="https://wa.me/529662432453" target="_blank" class="btn btn--primary">Escríbenos por WhatsApp</a>
+                        <a href="mailto:corazonesenaccion3@gmail.com" class="btn btn--secondary btn--dark">Envíanos un email</a>
+                    </div>
+                </div>
+            </div>
+            <div id="contactMap" class="contact__map" aria-live="polite"></div>
+        </div>
+    </section>
+
+    <!-- MODAL VOLUNTARIOS -->
+    <div class="modal-overlay" id="volModalOverlay" role="dialog" aria-modal="true" aria-label="Perfil del voluntario">
+        <div class="modal" id="volModal">
+            <button class="modal__close" id="volModalClose" aria-label="Cerrar perfil">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <img src="assets/images/logo.jpeg" alt="" onerror="this.style.display='none'">
+                    <h3>Corazones en Acción</h3>
+                    <p>Transformando vidas, construyendo esperanza.</p>
+                </div>
+                <div class="footer__links">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#causas">Causas</a></li>
+                        <li><a href="#eventos">Eventos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer__newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Recibe información sobre nuestras campañas</p>
+                    <form class="footer__form">
+                        <input type="email" placeholder="Tu email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Corazones en Acción. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/equipo-home.js"></script>
+</body>
+</html>

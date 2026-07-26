@@ -1,0 +1,52 @@
+{
+  "hero": { "titulo": "Corazones en Acción", "subtitulo": "Transformando vidas a través de la solidaridad." },
+  "nosotros": { "titulo": "Sobre Nosotros" },
+  "estadisticas": [
+    { "valor": 20, "etiqueta": "Familias ayudadas" },
+    { "valor": 3, "etiqueta": "Campañas realizadas" },
+    { "valor": 15, "etiqueta": "Voluntarios activos" }
+  ],
+  "causas": [],
+  "eventos": [
+    {
+      "id": 1,
+      "titulo": "Campaña de Recogida de Ropa",
+      "fecha": "22 AGO 2026",
+      "hora": "5:30 PM - 10:00 PM",
+      "lugar": "Sede Principal",
+      "descripcion": "Trae tu ropa en buen estado y ayúdanos a vestir a quienes más lo necesitan. Punto de recogida en la sede principal.",
+      "ubicacion": { "direccion": "Av. Las Cruces calle Libertad #56", "colonia": "Evolución", "ciudad": "Mapastepec", "estado": "Chiapas", "pais": "México" }
+    }
+  ],
+  "galeria": [
+    { "imagen": "assets/images/reforestacion1.jpeg", "titulo": "Reforestación", "alt": "Voluntarios durante una reforestación" },
+    { "imagen": "assets/images/reforestacion2.jpeg", "titulo": "Reforestación", "alt": "Actividad de reforestación comunitaria" },
+    { "imagen": "assets/images/reforestacion3.jpeg", "titulo": "Reforestación", "alt": "Plantación de árboles" },
+    { "imagen": "assets/images/reforestacion4.jpeg", "titulo": "Reforestación", "alt": "Equipo de voluntariado" },
+    { "imagen": "assets/images/reforestacion5.jpeg", "titulo": "Reforestación", "alt": "Jornada ambiental" },
+    { "imagen": "assets/images/reforestacion6.jpeg", "titulo": "Reforestación", "alt": "Participantes de la campaña" }
+  ],
+  "voluntarios": [
+    { "id": 1, "nombre": "Sebastián Cigarroa Castillo", "foto": "assets/images/voluntario1.jpeg", "presentacion": "Sin comentarios.", "frase": "Para alcanzar nuestros sueños, es necesario trabajar un día sí y el otro también - Jorge Vergara Madrigal", "redSocial": { "nombre": "Instagram", "url": "https://www.instagram.com/sebastian_cigarroa?igsh=a2k5N3c4dWxna2tm" } },
+    { "id": 2, "nombre": "Luis Angel García Moreno", "foto": "assets/images/voluntario2.jpeg", "presentacion": "Sin comentarios.", "frase": "El esfuerzo de hoy es el éxito de mañana, no te rindas; lo mejor está por venir - Sabiduría Popular", "redSocial": { "nombre": "Facebook", "url": "https://facebook.com/" } },
+    { "id": 3, "nombre": "José Martín Chirino Simón", "foto": "assets/images/voluntario3.jpeg", "presentacion": "Disfruto de ayudar sin recibir cosas a cambio; me gusta ver la felicidad de los demás.", "frase": "No podemos controlar lo que pasará, pero sí cómo lo vemos y cómo reaccionamos ante ello.", "redSocial": null },
+    { "id": 4, "nombre": "Sleither Flores", "foto": "assets/images/voluntario4.jpeg", "presentacion": "Sin comentarios.", "frase": "Tu enfoque determina tu realidad. – Qui-Gon Jinn.", "redSocial": { "nombre": "Instagram", "url": "https://instagram.com/" } },
+    { "id": 5, "nombre": "Sebastian Peña Guzmán", "foto": "assets/images/voluntario5.jpeg", "presentacion": "Sin comentarios.", "frase": "Paciencia en el proceso, constancia en el esfuerzo y fe en el resultado.", "redSocial": { "nombre": "Facebook", "url": "https://facebook.com/" } },
+    { "id": 6, "nombre": "Cristal Jared Ovando Hernández", "foto": "assets/images/voluntario6.jpeg", "presentacion": "Sin comentarios.", "frase": "Cada pequeño paso te acerca a la vida que sueñas.", "redSocial": null },
+    { "id": 7, "nombre": "David Emiliano Arias De Aquino", "foto": "assets/images/voluntario7.jpeg", "presentacion": "Me encanta saber que con pequeñas acciones puedo ayudar al mundo.", "frase": "El único límite para tus logros futuros es la creencia que tienes en ti mismo. — Brian Tracy", "redSocial": { "nombre": "Instagram", "url": "https://instagram.com/" } }
+  ],
+  "comunidad": [
+    { "id": 101, "evento": "Campaña de Ropa", "fecha": "25 de mayo de 2026", "foto": "assets/images/reforestacion6.jpeg", "descripcion": "Recolección de playeras y pantalones para familias de esta zona." },
+    { "id": 102, "evento": "Campaña de Ropa", "fecha": "20 de junio de 2026", "foto": "assets/images/reforestacion2.jpeg", "descripcion": "Recolección de playeras y pantalones para familias de esta zona." },
+    { "id": 103, "evento": "Reforestación Barrio Pescadores", "fecha": "15 de julio de 2026", "foto": "assets/images/reforestacion3.jpeg", "descripcion": "Plantamos árboles en el Barrio Pescadores para mejorar el aire y embellecer la zona." }
+  ],
+  "donadores": [
+    { "id": 201, "nombre": "Panadería El Trigo", "foto": "assets/images/donador1.jpg", "tipo": "Empresa", "mensaje": "Gracias por apoyar nuestra campaña navideña." },
+    { "id": 202, "nombre": "María López", "foto": "assets/images/donador2.jpg", "tipo": "Persona", "mensaje": "Es un honor ser parte de esta causa tan bonita." }
+  ],
+  "contacto": {
+    "direccion": "Av. Las Cruces calle Libertad #56", "colonia": "Evolución", "ciudad": "Mapastepec", "estado": "Chiapas", "pais": "México",
+    "telefono": ["+52 966 243 2453", "+52 966 113 4170"], "correo": "corazonesenaccion3@gmail.com", "horario": ["Lun - Vie: 9:00 AM - 6:00 PM", "Sáb: 9:00 AM - 1:00 PM"]
+  },
+  "footer": { "descripcion": "Transformando vidas, construyendo esperanza." }
+}
