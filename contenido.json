@@ -41,6 +41,8 @@
     { "id": 103, "evento": "Reforestación Barrio Pescadores", "fecha": "15 de julio de 2026", "foto": "assets/images/reforestacion3.jpeg", "descripcion": "Plantamos árboles en el Barrio Pescadores para mejorar el aire y embellecer la zona." }
   ],
   "donadores": [
+    { "id": 201, "nombre": "Panadería El Trigo", "foto": "assets/images/donador1.jpg", "tipo": "Empresa", "mensaje": "Gracias por apoyar nuestra campaña navideña." },
+    { "id": 202, "nombre": "María López", "foto": "assets/images/donador2.jpg", "tipo": "Persona", "mensaje": "Es un honor ser parte de esta causa tan bonita." }
   ],
   "contacto": {
     "direccion": "Av. Las Cruces calle Libertad #56", "colonia": "Evolución", "ciudad": "Mapastepec", "estado": "Chiapas", "pais": "México",
