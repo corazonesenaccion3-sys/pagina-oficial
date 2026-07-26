@@ -68,7 +68,7 @@
             <div class="about">
                 <div class="about__content">
                     <h3>¿Quiénes somos?</h3>
-                    <p>Somos un grupo de jóvenes comprometidos con nuestra comunidad. Nacimos de la idea de que pequeñas acciones pueden generar grandes cambios. Desde entonces, organizamos campañas de recoleccion de ropa, juguetes y alimentos para apoyar a familias en situación de vulnerabilidad.</p>
+                    <p>Somos un grupo de jóvenes comprometidos con nuestra comunidad. Nacimos de la idea de que pequeñas acciones pueden generar grandes cambios. Desde entonces, organizamos campañas de recogida de ropa, juguetes y alimentos para apoyar a familias en situación de vulnerabilidad.</p>
                     <h3>Nuestra Misión</h3>
                     <p>Brindar apoyo a quienes más lo necesitan a través de la recolección y distribución de recursos básicos, creando una red de solidaridad juvenil que inspire a las nuevas generaciones.</p>
                     <div class="about__stats">
@@ -107,7 +107,7 @@
                 <div class="card">
                     <div class="card__icon"><i class="fas fa-gift"></i></div>
                     <h3 class="card__title">Juguetes</h3>
-                    <p class="card__text">Organizamos campañas de recolección de juguetes nuevos y usados para llevar alegría a niños y niñas en fechas especiales.</p>
+                    <p class="card__text">Organizamos campañas de recogida de juguetes nuevos y usados para llevar alegría a niños y niñas en fechas especiales.</p>
                 </div>
                 <div class="card">
                     <div class="card__icon"><i class="fas fa-apple-alt"></i></div>
@@ -163,24 +163,37 @@
             <h2 class="section__title section__title--light">Colabora con Nosotros</h2>
             <p class="section__subtitle section__subtitle--light">Hay muchas formas de ayudar</p>
             <div class="donate-options">
-                <div class="donate-card">
+                <a class="donate-card donate-card--action" id="donateClothing" aria-label="Ver ubicación para donar ropa o juguetes">
                     <i class="fas fa-box-open donate-card__icon"></i>
                     <h3>Dona Ropa o Juguetes</h3>
-                    <p>Acércate a nuestros puntos de recoleccion o contáctanos para coordinar la entrega.</p>
-                </div>
-                <div class="donate-card">
+                    <p>Acércate a nuestros puntos de recogida o contáctanos para coordinar la entrega.</p>
+                    <span class="donate-card__action">Ver ubicación <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+                </a>
+                <button class="donate-card donate-card--action" id="donateMoney" type="button" aria-label="Ver datos para donar económicamente">
                     <i class="fas fa-hand-holding-usd donate-card__icon"></i>
                     <h3>Dona Económicamente</h3>
                     <p>Tu aporte económico nos ayuda a cubrir costos de logística y transporte.</p>
-                </div>
-                <div class="donate-card">
+                    <span class="donate-card__action">Ver datos bancarios <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+                </button>
+                <a class="donate-card donate-card--action" id="joinVolunteers" aria-label="Unirme al grupo de voluntariado">
                     <i class="fas fa-users donate-card__icon"></i>
                     <h3>Hazte Voluntario</h3>
                     <p>Únete a nuestro equipo y participa activamente en las campañas y eventos.</p>
-                </div>
+                    <span class="donate-card__action">Unirme al grupo <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+                </a>
             </div>
         </div>
     </section>
+
+    <div class="donation-modal" id="donationModal" role="dialog" aria-modal="true" aria-labelledby="donationModalTitle" aria-hidden="true">
+        <div class="donation-modal__dialog">
+            <button class="donation-modal__close" id="donationModalClose" type="button" aria-label="Cerrar datos de donación"><i class="fas fa-times" aria-hidden="true"></i></button>
+            <i class="fas fa-hand-holding-heart donation-modal__icon" aria-hidden="true"></i>
+            <h2 id="donationModalTitle">Datos para tu donación</h2>
+            <p class="donation-modal__intro">Gracias por apoyar a Corazones en Acción.</p>
+            <div id="donationModalContent"></div>
+        </div>
+    </div>
 
     <!-- CONTACTO -->
     <section class="section" id="contacto">

@@ -1,0 +1,19 @@
+"{
+  "ropaJuguetes": {
+    "direccion": "Av. Las Cruces calle Libertad #56, Col. Evolución, Tonalá, Chiapas, México",
+    "googleMapsUrl": ""
+  },
+  "donacionEconomica": {
+    "banco": "Por definir",
+    "titular": "Por definir",
+    "cuenta": "Por definir",
+    "clabe": "Por definir",
+    "referencia": "Donativo Corazones en Acción",
+    "instrucciones": "Actualiza estos datos en colabora.json antes de recibir donaciones."
+  },
+  "voluntariado": {
+    "grupoUrl": "https://chat.whatsapp.com/BCzdX1X1xHiEkuOHFUSuHE?s=cl&p=a&ilr=4",
+    "mensaje": "Únete a nuestro grupo de WhatsApp para recibir información sobre oportunidades de voluntariado y actividades comunitarias. Comparte tus habilidades y tiempo para hacer una diferencia positiva en la vida de quienes más lo necesitan."
+  }
+}
+"

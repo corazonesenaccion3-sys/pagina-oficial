@@ -9,11 +9,13 @@ import { initModal } from './modal.js';
 import { initWhatsApp } from './whatsapp.js';
 import { renderMaps } from './map.js';
 import { renderContactDetails } from './contact.js';
+import { initCollaboration } from './collaborate.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
   initNavbar();
   initModal();
   initWhatsApp();
+  initCollaboration();
 
   try {
     const content = await loadContent();
