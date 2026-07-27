@@ -35,7 +35,8 @@
     { "id": 6, "nombre": "Cristal Jared Ovando Hernández", "foto": "assets/images/voluntario6.jpeg", "presentacion": "Sin comentarios.", "frase": "Cada pequeño paso te acerca a la vida que sueñas.", "redSocial": null },
     { "id": 7, "nombre": "David Emiliano Arias De Aquino", "foto": "assets/images/voluntario7.jpeg", "presentacion": "Me encanta saber que con pequeñas acciones puedo ayudar al mundo.", "frase": "El único límite para tus logros futuros es la creencia que tienes en ti mismo. — Brian Tracy", "redSocial": { "nombre": "Instagram", "url": "https://instagram.com/" } },
     { "id": 8, "nombre": "Jorge Saul Guzmán Ruiz", "foto": "assets/images/voluntario8.jpeg", "presentacion": " practico box, soy parte del equipo corazones en acción y me gusta apoyar ala gente q lo más lo necesite", "frase": "sigue tus sueños y q nadie te impida lo q tú quieras ser", "redSocial": { "nombre": "Instagram", "url": "https://www.instagram.com/saul_guzman87?igsh=MXBzeWJqeTc3cGVwbQ%3D%3D&utm_source=qr" } },
-    { "id": 9, "nombre": "Vladimir Oropeza Hernández", "foto": "assets/images/voluntario9.jpeg", "presentacion": "Sin comentarios.", "frase": "El conocimiento empieza en la sombra - Sócrates", "redSocial": null } 
+    { "id": 9, "nombre": "Vladimir Oropeza Hernández", "foto": "assets/images/voluntario9.jpeg", "presentacion": "Sin comentarios.", "frase": "El conocimiento empieza en la sombra - Sócrates", "redSocial": null },
+    { "id":10, "nombre": "Diana Belen Cancino Barrios", "foto": "assets/images/voluntario10.jpeg", "presentacion": "Me gusta ayudar a quien lo necesita.Hacerlo me llena de satisfacción, ayudar es la mejor forma de vivir", "frase":"Nos elevamos al ayudar a otros - Robert Ingersoll", "redSocial": null }
     ],
   "comunidad": [
     { "id": 101, "evento": "Campaña de Ropa", 
