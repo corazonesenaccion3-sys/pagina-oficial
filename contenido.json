@@ -37,8 +37,8 @@
     { "id": 8, "nombre": "Jorge Saul Guzmán Ruiz", "foto": "assets/images/voluntario8.jpeg", "presentacion": " practico box, soy parte del equipo corazones en acción y me gusta apoyar ala gente q lo más lo necesite", "frase": "sigue tus sueños y q nadie te impida lo q tú quieras ser", "redSocial": { "nombre": "Instagram", "url": "https://www.instagram.com/saul_guzman87?igsh=MXBzeWJqeTc3cGVwbQ%3D%3D&utm_source=qr" } },
     { "id": 9, "nombre": "Vladimir Oropeza Hernández", "foto": "assets/images/voluntario9.jpeg", "presentacion": "Sin comentarios.", "frase": "El conocimiento empieza en la sombra - Sócrates", "redSocial": null },
     { "id":10, "nombre": "Diana Belen Cancino Barrios", "foto": "assets/images/voluntario10.jpeg", "presentacion": "Me gusta ayudar a quien lo necesita.Hacerlo me llena de satisfacción, ayudar es la mejor forma de vivir", "frase":"Nos elevamos al ayudar a otros - Robert Ingersoll", "redSocial": null }, 
-    { "id":11, "nombre": "Jhoana Guadalupe Sancho Figueroa ", "foto": "assets/images/voluntario11.jpeg", "presentacion": "Me considero una persona amigable, creativa, organizada y tranquila, me gusta dar siempre lo mejor de mí en cada actividad que realiza.amos al ayudar a otros - Robert Ingersoll","frase": "No tengas miedo de empezar de nuevo. Esta vez no empiezas desde cero, empiezas desde la experiencia", "redSocial": null } 
-
+    { "id":11, "nombre": "Jhoana Guadalupe Sancho Figueroa ", "foto": "assets/images/voluntario11.jpeg", "presentacion": "Me considero una persona amigable, creativa, organizada y tranquila, me gusta dar siempre lo mejor de mí en cada actividad que realizo","frase": "No tengas miedo de empezar de nuevo. Esta vez no empiezas desde cero, empiezas desde la experiencia.", "redSocial": null },
+    { "id":12, "nombre": "Adrián De Aquino", "foto": "assets/images/voluntario12.jpeg", "presentacion": "Me gusta correr", "frase": "El dolor es solo un pensamiento en tu cabeza. Si controlas tu mente, puedes controlar tu cuerpo y superar cualquier límite que creas tener. Eliud Kipchoge", "redSocial": { "nombre": "Instagram", "url": "https://www.instagram.com/adriandeaquinoo?igsh=cnR4eGpmaTlieHZh&utm_source=qr" } }
     ],
   "comunidad": [
     { "id": 101, "evento": "Campaña de Ropa", 
@@ -52,6 +52,7 @@
     { "id": 103, "evento": "Reforestación Barrio Pescadores", "fecha": "15 de julio de 2026", "foto": "assets/images/reforestacion3.jpeg", "descripcion": "Plantamos árboles en el Barrio Pescadores para mejorar el aire y embellecer la zona." }
   ],
   "donadores": [ 
+    
   ],
   "contacto": {
     "direccion": "Av. Las Cruces calle Libertad #56", 
